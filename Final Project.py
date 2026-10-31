@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from scipy.signal import butter, filtfilt, find_peaks
 
-video_path = r"C:\Users\ejeil\Desktop\Informatik II.mp4"
+video_path = r"inputfileDirectory.mp4"
 
 cap = cv2.VideoCapture(video_path)
 
