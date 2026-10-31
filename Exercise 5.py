@@ -3,11 +3,11 @@ import numpy as np
 from scipy.spatial.distance import directed_hausdorff
 #Part a
 print("Part a")
-path = r'C:\Users\ejeil\Desktop\IMG_2062_s_reference.png'
+path = r'imageDirectory_reference.png'
 
-path1 = r'C:\Users\ejeil\Desktop\IMG_2062_s_method1.png'
+path1 = r'imageDirectory_method1.png'
 
-path2 = r'C:\Users\ejeil\Desktop\IMG_2062_s_method2.png'
+path2 = r'imageDirectory_method2.png'
 
 def calculate_mutual_overlap(segmented_img, reference_img):
 
@@ -56,7 +56,7 @@ if ref_img is not None and seg1_img is not None and seg2_img is not None:
 #%%
 #Part b
 print("Part b")
-path3 = r'C:\Users\ejeil\Desktop\IMG_2062_s.png'
+path3 = r'imageDirectory_IMG_2062_s.png'
 original_img = cv2.imread(path3 , cv2.IMREAD_GRAYSCALE)
 if original_img is not None and ref_img is not None:
     best_threshold = -1
@@ -84,8 +84,8 @@ if original_img is not None and ref_img is not None:
 #%%
 # Part c
 print("Part c")
-path4 = r'C:\Users\ejeil\Desktop\hd_method1.png'
+path4 = r'imageDirectory_hd_method1.png'
 hd1_img = cv2.imread("hd_method1.png", cv2.IMREAD_GRAYSCALE)
-path5 = r'C:\Users\ejeil\Desktop\hd_method2.png'
+path5 = r'imageDirectory_hd_method2.png'
 hd2_img = cv2.imread("hd_method2.png", cv2.IMREAD_GRAYSCALE)
 
