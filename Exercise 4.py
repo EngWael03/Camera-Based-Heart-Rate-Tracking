@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from skimage import io, color, filters, measure
 
-path = r'C:\Users\ejeil\Desktop\embryos.png'
+path = r'imageDirectory_embryos.png'
 img = io.imread(path)
 
 plt.figure(figsize=(6, 5))
