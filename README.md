@@ -11,8 +11,10 @@ Estimate heart rate from a video of exposed skin, using a regular camera.
 
 **How to run :**
 - first install .zip file
-- 
-
+- rightclick terminal or powershell
+- check you install right python library and python version
+- **python Final Project.py**
+  
 
 For the most accurate results:
 
