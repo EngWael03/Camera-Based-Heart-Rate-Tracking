@@ -1,13 +1,18 @@
-Camera-Based Heart Rate Tracking
+**Camera-Based Heart Rate Tracking : **
 
 Estimate heart rate from a video of exposed skin, using a regular camera.
 
-How to Use
-Open the project in PyCharm.
-Record a video following the guidelines below.
-Run the code on your video.
-Adjust the box size if needed (see Adjusting the Box Size).
-Video Guidelines
+**How to Use:**
+- Open the project in PyCharm.
+- Record a video following the guidelines below.
+- Run the code on your video.
+- Adjust the box size if needed (see Adjusting the Box Size).
+- Video Guidelines
+
+**How to run :**
+- first install .zip file
+- 
+
 
 For the most accurate results:
 
